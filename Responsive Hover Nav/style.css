@@ -1,0 +1,29 @@
+li {
+  text-transform: uppercase;
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 3.5vw;
+  padding: 2vw;
+  text-align: center;
+  margin: 0;
+}
+
+.nav {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.line{
+    position: absolute;
+    width: 100px;
+    height: 0.5vw;
+    background: grey;
+    visibility: hidden;
+}
